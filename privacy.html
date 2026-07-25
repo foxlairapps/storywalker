@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zásady ochrany soukromí – StoryWalker</title>
+  <meta name="description" content="Zásady ochrany soukromí mobilní aplikace StoryWalker.">
+  <style>
+    :root{--bg:#f6f1e6;--panel:#fffdf8;--text:#26322b;--muted:#667068;--accent:#365f47;--border:#d8d2c5}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+    main{width:min(860px,calc(100% - 32px));margin:40px auto;padding:36px;background:var(--panel);border:1px solid var(--border);border-radius:18px}
+    h1,h2{line-height:1.25} h1{margin:0 0 8px;color:var(--accent);font-size:clamp(1.9rem,4vw,2.6rem)}
+    h2{margin-top:2rem;font-size:1.25rem} p,li{max-width:76ch}.meta{color:var(--muted);margin:0 0 28px}
+    .summary{padding:16px 18px;border-left:4px solid var(--accent);background:#f1f5f1;border-radius:8px}
+    a{color:var(--accent)} footer{margin-top:36px;padding-top:20px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem}
+    @media(max-width:600px){main{width:100%;margin:0;padding:24px 20px 36px;border:0;border-radius:0}}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Zásady ochrany soukromí aplikace StoryWalker</h1>
+  <p class="meta">Poslední aktualizace: 25. července 2026</p>
+
+  <p class="summary">StoryWalker nezřizuje uživatelské účty, neodesílá osobní údaje na server provozovatele a v současné verzi nepoužívá reklamu ani analytické služby. Údaje potřebné pro hraní jsou zpracovávány a ukládány lokálně v zařízení uživatele.</p>
+
+  <h2>1. Provozovatel a kontakt</h2>
+  <p>Aplikaci StoryWalker provozuje vývojář vystupující pod označením <strong>Foxlair</strong>.</p>
+  <p>Dotazy týkající se ochrany soukromí lze zaslat na <a href="mailto:foxlair.apps@gmail.com">foxlair.apps@gmail.com</a>.</p>
+
+  <h2>2. Jaké údaje aplikace používá</h2>
+
+  <h3>Pohybová aktivita a počet kroků</h3>
+  <p>StoryWalker může se souhlasem uživatele používat systémové údaje o pohybové aktivitě a počtu kroků. Tyto údaje slouží k měření postupu v dobrodružstvích založených na chůzi. Zpracování probíhá v zařízení a provozovatel aplikace tyto údaje nepřijímá.</p>
+
+  <h3>Poloha zařízení</h3>
+  <p>Některá dobrodružství mohou obsahovat kontrolu polohy. Aplikace požádá o přístup k poloze až ve chvíli, kdy uživatel tuto kontrolu sám spustí. Aktuální poloha se použije pro výpočet vzdálenosti a směru k cíli a pro ověření, zda se uživatel nachází v určeném okruhu. Souřadnice nejsou odesílány provozovateli aplikace.</p>
+  <p>V zařízení může být lokálně uložen pouze výsledek, že konkrétní kontrola polohy byla úspěšně splněna. StoryWalker nevyžaduje trvalé sledování polohy na pozadí.</p>
+
+  <h3>Oznámení</h3>
+  <p>Aplikace může požádat o povolení zobrazovat systémová oznámení, například při probíhající chůzi nebo změně postupu. Oznámení neslouží k reklamě ani profilování uživatele.</p>
+
+  <h3>Dobrodružství, soubory a obrázky</h3>
+  <p>Uživatel může prostřednictvím systémového výběru souborů importovat nebo exportovat balíčky dobrodružství a v editoru vybírat vlastní obrázky či další podporované soubory. Vybrané soubory jsou používány pouze pro funkce aplikace a nejsou automaticky odesílány provozovateli.</p>
+
+  <h3>Herní postup a nastavení</h3>
+  <p>StoryWalker ukládá v zařízení herní postup, hodnoty inventáře a vlastností, splněné události, nastavení aplikace, vytvořená dobrodružství a další údaje potřebné k pokračování ve hře nebo práci v editoru.</p>
+
+  <h2>3. Shromažďování a sdílení údajů</h2>
+  <p>Provozovatel StoryWalkeru v současné verzi neshromažďuje výše uvedené údaje na vlastním serveru a nesdílí je s třetími stranami pro reklamní, analytické nebo marketingové účely.</p>
+  <p>Aplikace používá standardní funkce systému Android a služby Google Play potřebné k distribuci aplikace a k získání údajů poskytovaných operačním systémem, například polohy. Zpracování údajů společností Google se řídí jejími vlastními podmínkami a zásadami ochrany soukromí.</p>
+
+  <h2>4. Doba uchování a odstranění údajů</h2>
+  <p>Lokální údaje zůstávají v zařízení, dokud je uživatel neodstraní některým z těchto způsobů:</p>
+  <ul>
+    <li>odstraněním konkrétního dobrodružství nebo jeho uloženého postupu,</li>
+    <li>použitím funkce resetu aplikace,</li>
+    <li>vymazáním dat aplikace v nastavení systému Android,</li>
+    <li>odinstalováním aplikace.</li>
+  </ul>
+  <p>Protože aplikace nevytváří uživatelský účet a provozovatel neuchovává tato data na svém serveru, není nutné žádat provozovatele o odstranění lokálních dat.</p>
+
+  <h2>5. Zabezpečení</h2>
+  <p>Data jsou ukládána v úložišti aplikace chráněném operačním systémem Android. StoryWalker omezuje přístup k citlivým oprávněním na funkce, které je skutečně potřebují, a o oprávnění žádá prostřednictvím standardních mechanismů Androidu.</p>
+
+  <h2>6. Děti</h2>
+  <p>StoryWalker nevytváří uživatelské profily a vědomě neshromažďuje osobní údaje dětí. Jednotlivá dobrodružství mohou mít vlastní tematické nebo věkové určení podle obsahu vytvořeného jejich autorem.</p>
+
+  <h2>7. Změny těchto zásad</h2>
+  <p>Tyto zásady mohou být aktualizovány, pokud se změní funkce aplikace nebo způsob zpracování údajů. Aktuální datum změny je vždy uvedeno v horní části této stránky.</p>
+
+  <h2>8. Kontakt</h2>
+  <p>V případě dotazů k ochraně soukromí kontaktujte <a href="mailto:foxlair.apps@gmail.com">foxlair.apps@gmail.com</a>.</p>
+
+  <footer>StoryWalker · Foxlair</footer>
+</main>
+</body>
+</html>
