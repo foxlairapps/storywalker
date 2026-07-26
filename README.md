@@ -1,2 +1,3 @@
-# storywalker
-Official website for StoryWalker
+# StoryWalker website
+
+Podrobná jednostránková prezentace StoryWalkeru.
