@@ -102,6 +102,11 @@
       color:var(--text);
     }
 
+    .button-row { display:flex; flex-wrap:wrap; gap:10px; margin-top:22px; }
+    .button { display:inline-flex; align-items:center; justify-content:center; padding:11px 16px; border-radius:999px; background:#fffdf8; color:var(--accent-strong); text-decoration:none; font-weight:750; }
+    .button.secondary { background:transparent; color:#fffdf8; border:1px solid rgba(255,255,255,.35); }
+    .catalog-button { display:inline-flex; margin-top:18px; padding:11px 16px; border-radius:999px; background:var(--accent-strong); color:white; text-decoration:none; font-weight:750; }
+
     .hero {
       padding:22px 0 42px;
     }
@@ -470,7 +475,8 @@
         <a href="#jak-funguje">Jak funguje</a>
         <a href="#moznosti">Možnosti</a>
         <a href="#autori">Pro autory</a>
-        <a href="#dobrodruzstvi">Dobrodružství</a>
+        <a href="manual/index.html">Příručky</a>
+        <a href="adventures/index.html">Dobrodružství</a>
       </nav>
     </div>
   </header>
@@ -650,6 +656,7 @@
               Dobrodružství se ukládají jako přenositelné ZIP balíčky, které lze sdílet,
               importovat a dále upravovat.
             </p>
+            <div class="button-row"><a class="button" href="manual/author/index.html">Příručka autora</a><a class="button secondary" href="manual/author/first-adventure.html">První dobrodružství</a></div>
           </div>
 
           <ul class="author-list">
@@ -715,7 +722,8 @@
 
         <div class="catalog-note">
           Katalog bude obsahovat popis, autora, přibližnou délku, požadovanou chůzi,
-          použité funkce a přímý odkaz ke stažení ZIP balíčku.
+          použité funkce a přímý odkaz ke stažení ZIP balíčku.<br>
+          <a class="catalog-button" href="adventures/index.html">Otevřít knihovnu dobrodružství</a>
         </div>
       </div>
     </section>
@@ -726,6 +734,8 @@
       <div>© 2026 FoxLair Studio</div>
       <div class="footer-links">
         <a href="https://foxlairstudio.com/">FoxLair Studio</a>
+        <a href="manual/index.html">Příručky</a>
+        <a href="adventures/index.html">Dobrodružství</a>
         <a href="privacy.html">Zásady ochrany soukromí</a>
         <a href="mailto:foxlair.apps@gmail.com">Kontakt</a>
       </div>
